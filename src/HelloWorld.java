@@ -35,6 +35,9 @@ public class HelloWorld extends JDialog {
 
     private void onCancel() {
         // add your code here if necessary
+        form121212 dialog1 = new form121212();
+        dialog1.pack();
+        dialog1.setVisible(true);
         dispose();
     }
 
