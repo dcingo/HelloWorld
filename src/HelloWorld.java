@@ -5,6 +5,7 @@ public class HelloWorld extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
+    private JTabbedPane tabbedPane1;
 
     public HelloWorld() {
         setContentPane(contentPane);
@@ -39,6 +40,7 @@ public class HelloWorld extends JDialog {
         dialog1.pack();
         dialog1.setVisible(true);
         dispose();
+
     }
 
     public static void main(String[] args) {
